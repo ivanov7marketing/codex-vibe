@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ремонт квартир под ключ</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">РемДом</h1>
+            <nav class="nav">
+                <a href="#services">Услуги</a>
+                <a href="#about">О нас</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Профессиональный ремонт квартир</h2>
+            <p>Выполним ремонт любой сложности в срок и под ключ.</p>
+            <a href="#contact" class="btn">Получить консультацию</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Косметический ремонт</h3>
+                    <p>Быстрое обновление интерьера без кардинальных изменений.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Капитальный ремонт</h3>
+                    <p>Комплексное обновление всех инженерных систем и отделки.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Дизайнерский ремонт</h3>
+                    <p>Эксклюзивные проекты и индивидуальные решения под ваш стиль.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <ul>
+                <li>Более 10 лет опыта.</li>
+                <li>Гарантия на все виды работ.</li>
+                <li>Используем качественные материалы.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Оставьте заявку</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Ваше имя" required />
+                <input type="tel" name="phone" placeholder="Телефон" required />
+                <textarea name="message" placeholder="Опишите ваш проект" rows="4"></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 РемДом. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
